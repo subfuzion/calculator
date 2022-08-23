@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <span id="expression" />
+  </div>
+  <div>
+    <input type="text" id="result" onclick=clearInput() />
+    <input type="button" value="C" onclick="clearInput()" />
+    <input type="button" value="AC" onclick="allClear()" />
+    <input type="button" value="+" onclick="add()" />
+    <input type="button" value="-" onclick="sub()" />
+    <input type="button" value="*" onclick="mul()" />
+    <input type="button" value="/" onclick="div()" />
+    <input type="button" value="=" onclick="eq()" />
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
